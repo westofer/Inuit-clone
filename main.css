@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color:  #ECEEF1;
+    min-height: 100%;
+
+}
+
+/**============================
+   general parts
+/**============================ */
+.sign-in{
+    background-color: #0077C5;
+    color: white;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    font-size: 1.125em;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-family: 'helvetica';
+
+}
+div{
+    font-family: 'helvetica';
+    font-size: 12px;
+    color: #505050;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: #0077C5;
+}
+section, footer{
+    text-align: center;
+}
+/**============================
+        header
+/**============================ */
+header{
+    text-align: right;
+    padding: 10px 30px;
+}
+
+header .sign-in{
+    float: right;
+    margin-left: 10px;
+}
+
+/**============================
+            logo
+/**============================ */
+#logo-title{
+    margin-top: 20px;
+}
+/**============================
+        Form box
+/**============================ */
+#form-box{
+    background-color: white;
+    width: 380px;
+    height: 671px;
+    margin: 0 auto;
+    padding: 29px;
+    border-radius: 2px;
+    border: 1px solid #c7c7c7;
+    position: relative;
+    margin-bottom: 30px;
+}
+form{
+    text-align: left;
+}
+h1{
+    font: 24px 'helvetica';
+    color: #4C4C4C;
+}
+h2{
+    font: 14px 'helvetica';
+    color:#4C4C4C;
+    padding-top: 20px;
+}
+h2 a{
+    font-size: 12px;
+}
+.sign-in-mobile{
+    font: 14px 'helvetica';
+    color:#4C4C4C;
+    display: none;
+}
+
+
+label{
+    font: 14px 'helvetica';
+    padding-bottom: 8px;
+    display: block;
+    margin-top: 30px;
+    color: #404040;
+}
+.detail{
+    font: 10px 'helvetica';
+    color: #44m4444;
+    padding: 5px 0;
+}
+
+
+input{
+    width: 100%;
+    display: block;
+}
+input.text-feild{
+    border: 1px solid #C1C5C8;
+    height: 34px;
+    padding: 0 7px;
+    border-radius: 3px;
+}
+#password{
+    background-image: url(images/unlocked-lock.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-right: 12px;
+}
+.submit{
+    width: 100%;
+    padding: 12px;
+    margin: 30px 0;
+    font-size: 15.75px;
+   
+}
+em.terms{
+    font: 12px 'helvetica';
+    color: #757575;
+    font-style: italic;
+    display: inline-block;
+    width: 270px;
+    line-height: 2;
+}
+/* footer of the box */
+#form-box footer{
+    background-color: #ECEEF1;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+
+    font-size: 10px;
+    font-family: 'helvetica';
+    color: #8D9096;
+   
+}
+footer div a{
+    padding-left: 10px;
+    color:#505050 ;
+
+}
+
+
+
+
+@media (max-width:767px){
+    header{
+        display: none;
+    }
+    .sign-in-mobile{
+        display: block;
+    }
+}

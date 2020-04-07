@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Intuit-clone</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="main.css" type="text/css" media="screen" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">
+            You are using an <strong>outdated</strong> browser. Please
+            <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+            your experience.
+            </p>
+        <![endif]-->
+        <header>
+            <button class="sign-in"><img style="vertical-align: middle;" src="images/lock.png" alt="" />Sign In</button>
+            <div>
+                Already have an Intuit account?
+            </div>
+            <div>
+                <a href="#">I forgot my user ID or Password</a>
+            </div>
+        </header>
+
+        <section>
+            <img id="logo-title" src="images/intuit.png" alt="" />
+            <!-- <img src="images/intuit.png" alt="INTUIT" />
+                 <div class="tools">
+                 <img src="images/mint.png" alt="mint" />
+                 <span class="tool">mint</span>
+                 <img src="images/mint.png" alt="mint" />
+                 <span class="tool">quickbooks</span>
+                 <img src="images/mint.png" alt="mint" />
+                 <span class="tool">turbotax</span>
+                 </div> -->
+        </section>
+        <section id="form-box">
+            <h1>Create an Intuit account</h1>
+            <h2>
+                One account for everything Intuit, including Mint.
+                <br />
+            <a href="#">Learn more</a>
+            <div class="sign-in-mobile">Already have an account? <a href="#">Sign In</a></div>
+            </h2>
+            <form method="post" action="#">
+                <label for="email">Email address</label>
+                <input type="email" name="email" value="" id="email" class="text-feild"/>
+
+                <label for="phone">Phone (recommended)</label>
+                <input type="tel" name="phone" value="" id="phone" class="text-feild" />
+                <div class="detail">Standard call, messaging or data rates may apply.</div>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" value="" id="password" class="text-feild"/>
+                <!--
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" name="password" value="" id="confirm-password" class="text-feild"/>
+                -->
+                <button class="sign-in submit"><img style="vertical-align: middle;" src="images/lock.png" alt="" /> Create Account</button>
+            </form>
+            <div>
+                <em class="terms">By clicking Create account, you agree to our
+                    <a href="">Terms</a> and have read and acknowledge our <a href="">Privacy Statement.</a>
+                </em>
+            </div>
+
+
+            <footer>
+                    Invisible reCAPTCHA by <a href="@">Google Privacy </a> Policy and <a href="#"> Terms of Use.</a>
+            </footer>
+        </section>
+        <footer>
+            <div>
+                <a href="#">legal </a> <a href="#"> Privacy </a> <a href="#"> Security </a>
+            </div>
+            <div>
+                © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
+                ProConnect and Mint are registered trademarks of Intuit Inc.
+            </div>
+            <div>
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </div>
+        </footer>
+    </body>
+</html>
